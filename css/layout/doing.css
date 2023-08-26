@@ -1,35 +1,32 @@
-.section-title {
-  margin-bottom: 72px;
-  color: var(--navy-blue);
-  text-align: center;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-
 /* ================================== Mobile First ==================================*/
 
 @media screen and (max-width: 767px) {
-  .section {
-    padding-top: 96px;
-    padding-bottom: 96px;
+  .doing-section {
+    display: none;
   }
 }
 
 /* ================================== Tablet Style ==================================*/
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
-  .section {
-    padding-top: 96px;
-    padding-bottom: 96px;
+  .doing-section {
+    display: none;
   }
 }
+
 /* ================================== Desktop Style ==================================*/
 
 @media screen and (min-width: 1158px) {
-  .section {
-    padding-top: 120px;
+  .doing-section {
     padding-bottom: 120px;
+  }
+
+  .doing-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .doing-list-item {
+    flex-basis: calc((100% - 48px) / 3);
   }
 }

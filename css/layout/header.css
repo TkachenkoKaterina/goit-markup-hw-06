@@ -55,7 +55,7 @@
     stroke: var(--navy-blue);
   }
 
-  /* Mobile Menu */
+  /* Mobile menu */
 
   .mobile-menu {
     position: fixed;
@@ -70,7 +70,6 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     background-color: var(--white);
 
     transform: translateX(100%);
@@ -129,12 +128,12 @@
   .mobile-nav {
     display: flex;
     flex-direction: column;
+    margin-bottom: auto;
   }
 
   .mobile-nav-list {
     display: flex;
     flex-direction: column;
-    margin-bottom: 284px;
     gap: 40px;
   }
 
@@ -205,6 +204,7 @@
   .mobile-social {
     display: flex;
     justify-content: space-between;
+    margin-top: 48px;
   }
 
   .current-menu {

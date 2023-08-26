@@ -12,3 +12,21 @@
   --white: #ffffff;
   --dairy: #fcfcfc;
 }
+
+/* current */
+
+.current {
+  position: relative;
+  color: var(--ocean);
+}
+
+.current::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--ocean);
+}
